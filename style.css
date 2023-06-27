@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: bisque;
-    padding: 50px 300px 50px 300px;
+    /*padding: 50px 250px 50px 250px;*/
 }
 
 header {
@@ -9,7 +9,7 @@ header {
     font-size: 50px;
     font-weight: bold;
     background-color: aqua;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 footer {
@@ -18,14 +18,38 @@ footer {
 
 h1 {
     font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
     background-color: cadetblue;
-    padding: 30px;
+
 }
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+th {
+    border: 3px black solid;
+    text-align: center;
+}
+
+table, td {
+    border: 1px black solid;
+    text-align: center;
+}
+
+/* self created classes */
+
+.info {
+    display: block;
+    padding: 10px 0px 10px 0px;
+    width: 50%;
+}
+
+.skills {
+    padding: 0px 10px 5px 0px;    
 }
 
 .beginner {
@@ -38,13 +62,8 @@ h2 {
     color: blue;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.nameContainer {
-    display: flex;
-    flex-direction: column;
-    padding-right: 900px;
+.explaination {
+    display: block;
+    border: 5px black solid;
+    padding: 5px;
 }
